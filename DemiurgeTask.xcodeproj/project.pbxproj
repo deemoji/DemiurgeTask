@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4062D12C6B923B006E2D7E /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4062D02C6B923B006E2D7E /* ListViewModelTests.swift */; };
+		EF4062D22C6B9372006E2D7E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9287DF2C6B7A6D002A435D /* ListViewModel.swift */; };
+		EF8B342A2C6BA7B80033D82F /* DemiurgeCellTypeGeneratorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C702C6AB16300A7CC3F /* DemiurgeCellTypeGeneratorImplementation.swift */; };
+		EF9287E02C6B7A6D002A435D /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9287DF2C6B7A6D002A435D /* ListViewModel.swift */; };
 		EFDB9C392C6A4FDA00A7CC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C382C6A4FDA00A7CC3F /* AppDelegate.swift */; };
 		EFDB9C3B2C6A4FDA00A7CC3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C3A2C6A4FDA00A7CC3F /* SceneDelegate.swift */; };
-		EFDB9C3D2C6A4FDA00A7CC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C3C2C6A4FDA00A7CC3F /* ViewController.swift */; };
-		EFDB9C402C6A4FDA00A7CC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDB9C3E2C6A4FDA00A7CC3F /* Main.storyboard */; };
+		EFDB9C3D2C6A4FDA00A7CC3F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C3C2C6A4FDA00A7CC3F /* ListViewController.swift */; };
+		EFDB9C402C6A4FDA00A7CC3F /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDB9C3E2C6A4FDA00A7CC3F /* List.storyboard */; };
 		EFDB9C422C6A4FE600A7CC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDB9C412C6A4FE600A7CC3F /* Assets.xcassets */; };
 		EFDB9C452C6A4FE600A7CC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDB9C432C6A4FE600A7CC3F /* LaunchScreen.storyboard */; };
-		EFDB9C502C6A4FE700A7CC3F /* DemiurgeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C4F2C6A4FE700A7CC3F /* DemiurgeTaskTests.swift */; };
+		EFDB9C502C6A4FE700A7CC3F /* DemiurgeCellLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C4F2C6A4FE700A7CC3F /* DemiurgeCellLogicTests.swift */; };
 		EFDB9C5A2C6A4FE700A7CC3F /* DemiurgeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C592C6A4FE700A7CC3F /* DemiurgeTaskUITests.swift */; };
 		EFDB9C5C2C6A4FE700A7CC3F /* DemiurgeTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C5B2C6A4FE700A7CC3F /* DemiurgeTaskUITestsLaunchTests.swift */; };
+		EFDB9C692C6A550F00A7CC3F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB9C682C6A550F00A7CC3F /* TableViewCell.xib */; };
+		EFDB9C6B2C6A8F8100A7CC3F /* DemiurgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C6A2C6A8F8100A7CC3F /* DemiurgeCell.swift */; };
+		EFDB9C6D2C6A935400A7CC3F /* DemiurgeCellLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C6C2C6A935400A7CC3F /* DemiurgeCellLogic.swift */; };
+		EFDB9C6F2C6AADF200A7CC3F /* DemiurgeCellTypeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C6E2C6AADF200A7CC3F /* DemiurgeCellTypeGenerator.swift */; };
+		EFDB9C712C6AB16300A7CC3F /* DemiurgeCellTypeGeneratorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C702C6AB16300A7CC3F /* DemiurgeCellTypeGeneratorImplementation.swift */; };
+		EFDB9C722C6AB18D00A7CC3F /* DemiurgeCellTypeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C6E2C6AADF200A7CC3F /* DemiurgeCellTypeGenerator.swift */; };
+		EFDB9C752C6AB20500A7CC3F /* DemiurgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C6A2C6A8F8100A7CC3F /* DemiurgeCell.swift */; };
+		EFDB9C782C6ABADF00A7CC3F /* TestableDemiurgeCellTypeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C762C6ABAD000A7CC3F /* TestableDemiurgeCellTypeGenerator.swift */; };
+		EFDB9C7A2C6ABC2C00A7CC3F /* DemiurgeCellLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C6C2C6A935400A7CC3F /* DemiurgeCellLogic.swift */; };
+		EFDB9C7C2C6B538900A7CC3F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C7B2C6B538900A7CC3F /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +50,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF4062D02C6B923B006E2D7E /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
+		EF9287DF2C6B7A6D002A435D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		EFDB9C352C6A4FDA00A7CC3F /* DemiurgeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemiurgeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDB9C382C6A4FDA00A7CC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFDB9C3A2C6A4FDA00A7CC3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFDB9C3C2C6A4FDA00A7CC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFDB9C3F2C6A4FDA00A7CC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDB9C3C2C6A4FDA00A7CC3F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EFDB9C3F2C6A4FDA00A7CC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/List.storyboard; sourceTree = "<group>"; };
 		EFDB9C412C6A4FE600A7CC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDB9C442C6A4FE600A7CC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDB9C462C6A4FE600A7CC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFDB9C4B2C6A4FE700A7CC3F /* DemiurgeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemiurgeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFDB9C4F2C6A4FE700A7CC3F /* DemiurgeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeTaskTests.swift; sourceTree = "<group>"; };
+		EFDB9C4F2C6A4FE700A7CC3F /* DemiurgeCellLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeCellLogicTests.swift; sourceTree = "<group>"; };
 		EFDB9C552C6A4FE700A7CC3F /* DemiurgeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemiurgeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDB9C592C6A4FE700A7CC3F /* DemiurgeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeTaskUITests.swift; sourceTree = "<group>"; };
 		EFDB9C5B2C6A4FE700A7CC3F /* DemiurgeTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFDB9C682C6A550F00A7CC3F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		EFDB9C6A2C6A8F8100A7CC3F /* DemiurgeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeCell.swift; sourceTree = "<group>"; };
+		EFDB9C6C2C6A935400A7CC3F /* DemiurgeCellLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeCellLogic.swift; sourceTree = "<group>"; };
+		EFDB9C6E2C6AADF200A7CC3F /* DemiurgeCellTypeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeCellTypeGenerator.swift; sourceTree = "<group>"; };
+		EFDB9C702C6AB16300A7CC3F /* DemiurgeCellTypeGeneratorImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeCellTypeGeneratorImplementation.swift; sourceTree = "<group>"; };
+		EFDB9C762C6ABAD000A7CC3F /* TestableDemiurgeCellTypeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableDemiurgeCellTypeGenerator.swift; sourceTree = "<group>"; };
+		EFDB9C7B2C6B538900A7CC3F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +99,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF196F072C6BF66700863ED3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB9C382C6A4FDA00A7CC3F /* AppDelegate.swift */,
+				EFDB9C3A2C6A4FDA00A7CC3F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF196F082C6BF69900863ED3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB9C6A2C6A8F8100A7CC3F /* DemiurgeCell.swift */,
+				EFDB9C6C2C6A935400A7CC3F /* DemiurgeCellLogic.swift */,
+				EFDB9C6E2C6AADF200A7CC3F /* DemiurgeCellTypeGenerator.swift */,
+				EFDB9C702C6AB16300A7CC3F /* DemiurgeCellTypeGeneratorImplementation.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EF196F092C6BF6DE00863ED3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB9C412C6A4FE600A7CC3F /* Assets.xcassets */,
+				EFDB9C432C6A4FE600A7CC3F /* LaunchScreen.storyboard */,
+				EFDB9C462C6A4FE600A7CC3F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF196F0A2C6BF71D00863ED3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF196F0B2C6BF73700863ED3 /* List */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EF196F0B2C6BF73700863ED3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB9C3C2C6A4FDA00A7CC3F /* ListViewController.swift */,
+				EF9287DF2C6B7A6D002A435D /* ListViewModel.swift */,
+				EFDB9C3E2C6A4FDA00A7CC3F /* List.storyboard */,
+				EFDB9C682C6A550F00A7CC3F /* TableViewCell.xib */,
+				EFDB9C7B2C6B538900A7CC3F /* TableViewCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		EFDB9C2C2C6A4FDA00A7CC3F = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +172,10 @@
 		EFDB9C372C6A4FDA00A7CC3F /* DemiurgeTask */ = {
 			isa = PBXGroup;
 			children = (
-				EFDB9C382C6A4FDA00A7CC3F /* AppDelegate.swift */,
-				EFDB9C3A2C6A4FDA00A7CC3F /* SceneDelegate.swift */,
-				EFDB9C3C2C6A4FDA00A7CC3F /* ViewController.swift */,
-				EFDB9C3E2C6A4FDA00A7CC3F /* Main.storyboard */,
-				EFDB9C412C6A4FE600A7CC3F /* Assets.xcassets */,
-				EFDB9C432C6A4FE600A7CC3F /* LaunchScreen.storyboard */,
-				EFDB9C462C6A4FE600A7CC3F /* Info.plist */,
+				EF196F0A2C6BF71D00863ED3 /* Scenes */,
+				EF196F092C6BF6DE00863ED3 /* Resources */,
+				EF196F082C6BF69900863ED3 /* Shared */,
+				EF196F072C6BF66700863ED3 /* App */,
 			);
 			path = DemiurgeTask;
 			sourceTree = "<group>";
@@ -113,7 +183,9 @@
 		EFDB9C4E2C6A4FE700A7CC3F /* DemiurgeTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				EFDB9C4F2C6A4FE700A7CC3F /* DemiurgeTaskTests.swift */,
+				EFDB9C762C6ABAD000A7CC3F /* TestableDemiurgeCellTypeGenerator.swift */,
+				EFDB9C4F2C6A4FE700A7CC3F /* DemiurgeCellLogicTests.swift */,
+				EF4062D02C6B923B006E2D7E /* ListViewModelTests.swift */,
 			);
 			path = DemiurgeTaskTests;
 			sourceTree = "<group>";
@@ -231,9 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDB9C692C6A550F00A7CC3F /* TableViewCell.xib in Resources */,
 				EFDB9C452C6A4FE600A7CC3F /* LaunchScreen.storyboard in Resources */,
 				EFDB9C422C6A4FE600A7CC3F /* Assets.xcassets in Resources */,
-				EFDB9C402C6A4FDA00A7CC3F /* Main.storyboard in Resources */,
+				EFDB9C402C6A4FDA00A7CC3F /* List.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDB9C3D2C6A4FDA00A7CC3F /* ViewController.swift in Sources */,
+				EFDB9C3D2C6A4FDA00A7CC3F /* ListViewController.swift in Sources */,
+				EFDB9C7C2C6B538900A7CC3F /* TableViewCell.swift in Sources */,
 				EFDB9C392C6A4FDA00A7CC3F /* AppDelegate.swift in Sources */,
+				EFDB9C6D2C6A935400A7CC3F /* DemiurgeCellLogic.swift in Sources */,
+				EFDB9C6F2C6AADF200A7CC3F /* DemiurgeCellTypeGenerator.swift in Sources */,
+				EF9287E02C6B7A6D002A435D /* ListViewModel.swift in Sources */,
 				EFDB9C3B2C6A4FDA00A7CC3F /* SceneDelegate.swift in Sources */,
+				EFDB9C6B2C6A8F8100A7CC3F /* DemiurgeCell.swift in Sources */,
+				EFDB9C712C6AB16300A7CC3F /* DemiurgeCellTypeGeneratorImplementation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDB9C502C6A4FE700A7CC3F /* DemiurgeTaskTests.swift in Sources */,
+				EFDB9C502C6A4FE700A7CC3F /* DemiurgeCellLogicTests.swift in Sources */,
+				EF8B342A2C6BA7B80033D82F /* DemiurgeCellTypeGeneratorImplementation.swift in Sources */,
+				EFDB9C782C6ABADF00A7CC3F /* TestableDemiurgeCellTypeGenerator.swift in Sources */,
+				EF4062D22C6B9372006E2D7E /* ListViewModel.swift in Sources */,
+				EF4062D12C6B923B006E2D7E /* ListViewModelTests.swift in Sources */,
+				EFDB9C7A2C6ABC2C00A7CC3F /* DemiurgeCellLogic.swift in Sources */,
+				EFDB9C722C6AB18D00A7CC3F /* DemiurgeCellTypeGenerator.swift in Sources */,
+				EFDB9C752C6AB20500A7CC3F /* DemiurgeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +383,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EFDB9C3E2C6A4FDA00A7CC3F /* Main.storyboard */ = {
+		EFDB9C3E2C6A4FDA00A7CC3F /* List.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EFDB9C3F2C6A4FDA00A7CC3F /* Base */,
 			);
-			name = Main.storyboard;
+			name = List.storyboard;
 			sourceTree = "<group>";
 		};
 		EFDB9C432C6A4FE600A7CC3F /* LaunchScreen.storyboard */ = {
