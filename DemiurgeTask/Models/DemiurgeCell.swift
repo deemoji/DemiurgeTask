@@ -8,14 +8,6 @@
 import Foundation
 import UIKit
 
-enum DemiurgeCellType {
-    case dead
-    
-    case alive
-    
-    case life
-}
-
 struct DemiurgeCell: Hashable {
     
     let uuid = UUID()
@@ -42,6 +34,8 @@ extension DemiurgeCell {
             return DemiurgeCell(name: "Мертвая", description: "или прикидывается", emoji: "💀", type: type, color: .init(named: "DeadCellColor"), secondaryColor: .init(named: "DeadCellSecondaryColor"))
         case .life:
             return DemiurgeCell(name: "Жизнь", description: "Ку-ку!", emoji: "🐣", type: type, color: .init(named: "LifeCellColor"), secondaryColor: .init(named: "LifeCellSecondaryColor"))
+        default:
+            return DemiurgeCell(name: "Неизвестно", description: "-", emoji: "🛠", type: .unknown, color: .red, secondaryColor: .white)
         }
     }
 }

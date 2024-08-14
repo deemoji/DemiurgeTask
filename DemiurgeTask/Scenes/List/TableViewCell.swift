@@ -44,7 +44,7 @@ class TableViewCell: UITableViewCell {
         stackView.layer.cornerRadius = 5
     }
 }
-
+// MARK: - Model Binding
 extension TableViewCell {
     func bind(_  model: DemiurgeCell) {
         emojiLabel.text = model.emoji

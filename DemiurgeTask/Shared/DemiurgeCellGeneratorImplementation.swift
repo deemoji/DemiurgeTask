@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class DemiurgeCellTypeGeneratorImplementation: DemiurgeCellTypeGenerator {
+final class DemiurgeCellGeneratorImplementation: DemiurgeCellGenerator {
     func generateCell() -> DemiurgeCell {
         return Int.random(in: 0...1) == 0 ? DemiurgeCell.instatiateFor(type: .dead) : DemiurgeCell.instatiateFor(type: .alive)
     }

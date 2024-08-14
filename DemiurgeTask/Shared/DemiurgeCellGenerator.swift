@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol DemiurgeCellTypeGenerator {
+protocol DemiurgeCellGenerator {
     func generateCell() -> DemiurgeCell
 }

@@ -26,13 +26,14 @@ final class ListViewController: UIViewController {
     }()
     
     private var viewModel: ListViewModel = {
-        let viewModel = ListViewModel(demiurgeCellLogic: DemiurgeCellLogicImplementation())
+        let viewModel = ListViewModel()
         return viewModel
     }()
     
     private var dataSource: DataSource!
     
     private var buttonPublisher = PassthroughSubject<Void, Never>()
+    private var loadCachePublisher = PassthroughSubject<Bool, Never>()
     
     private var bag = Set<AnyCancellable>()
     
@@ -61,11 +62,30 @@ final class ListViewController: UIViewController {
             return cell
         })
     }
+    
+    private func showInitialAlarm() {
+        let alert = UIAlertController(title: "Найдены сохраненные  данные", message: "Вы можете продолжить или  начать сначала", preferredStyle: .alert)
+        let continueAction = UIAlertAction(title: "Продолжить", style: .default) {[weak self] _ in
+            self?.loadCachePublisher.send(true)
+        }
+        let clearCacheAction = UIAlertAction(title: "Начать сначала", style: .destructive) {
+            [weak self] _ in
+            self?.loadCachePublisher.send(false)
+        }
+        alert.addAction(continueAction)
+        alert.addAction(clearCacheAction)
+        self.present(alert, animated: true)
+        
+    }
 }
 // MARK: - Setting up bindings
 extension ListViewController {
     func bindViewModel() {
-        viewModel.bind(buttonPressed: buttonPublisher.eraseToAnyPublisher())
+        if viewModel.hasSavedValues {
+            showInitialAlarm()
+        }
+        
+        viewModel.bind(buttonPressed: buttonPublisher.eraseToAnyPublisher(), needToContinue: loadCachePublisher.eraseToAnyPublisher())
         viewModel.$cells.sink { [weak self] cells in
             self?.update(cells)
         }.store(in: &bag)
@@ -80,6 +100,8 @@ extension ListViewController {
         dataSource.apply(snapshot, animatingDifferences: false)
     }
 }
+
+//  MARK: - TableViewDelegate
 extension ListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return tableView.rowHeight
