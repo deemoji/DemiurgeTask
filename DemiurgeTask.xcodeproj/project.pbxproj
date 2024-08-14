@@ -17,6 +17,8 @@
 		EF196F332C6CB51D00863ED3 /* CellEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF196F2B2C6CA8A000863ED3 /* CellEntity+CoreDataProperties.swift */; };
 		EF196F342C6CB51D00863ED3 /* CellEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF196F2A2C6CA8A000863ED3 /* CellEntity+CoreDataClass.swift */; };
 		EF196F352C6CB5EA00863ED3 /* CellContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF196F272C6CA84500863ED3 /* CellContainer.xcdatamodeld */; };
+		EF196F392C6CB9F900863ED3 /* Second.png in Resources */ = {isa = PBXBuildFile; fileRef = EF196F372C6CB9F800863ED3 /* Second.png */; };
+		EF196F3A2C6CB9F900863ED3 /* First.png in Resources */ = {isa = PBXBuildFile; fileRef = EF196F382C6CB9F900863ED3 /* First.png */; };
 		EF4062D12C6B923B006E2D7E /* DemiurgeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4062D02C6B923B006E2D7E /* DemiurgeTaskTests.swift */; };
 		EF4062D22C6B9372006E2D7E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9287DF2C6B7A6D002A435D /* ListViewModel.swift */; };
 		EF8B342A2C6BA7B80033D82F /* DemiurgeCellGeneratorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB9C702C6AB16300A7CC3F /* DemiurgeCellGeneratorImplementation.swift */; };
@@ -61,6 +63,8 @@
 		EF196F2A2C6CA8A000863ED3 /* CellEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CellEntity+CoreDataClass.swift"; path = "DemiurgeTask/Models/CellEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		EF196F2B2C6CA8A000863ED3 /* CellEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CellEntity+CoreDataProperties.swift"; path = "DemiurgeTask/Models/CellEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		EF196F2E2C6CAD5800863ED3 /* DemiurgeCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeCellType.swift; sourceTree = "<group>"; };
+		EF196F372C6CB9F800863ED3 /* Second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Second.png; sourceTree = "<group>"; };
+		EF196F382C6CB9F900863ED3 /* First.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = First.png; sourceTree = "<group>"; };
 		EF4062D02C6B923B006E2D7E /* DemiurgeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemiurgeTaskTests.swift; sourceTree = "<group>"; };
 		EF9287DF2C6B7A6D002A435D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		EFDB9C352C6A4FDA00A7CC3F /* DemiurgeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemiurgeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +172,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		EF196F362C6CB9D200863ED3 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EF196F382C6CB9F900863ED3 /* First.png */,
+				EF196F372C6CB9F800863ED3 /* Second.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		EFDB9C2C2C6A4FDA00A7CC3F = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +204,7 @@
 		EFDB9C372C6A4FDA00A7CC3F /* DemiurgeTask */ = {
 			isa = PBXGroup;
 			children = (
+				EF196F362C6CB9D200863ED3 /* Screenshots */,
 				EF196F302C6CB28300863ED3 /* Models */,
 				EF196F0A2C6BF71D00863ED3 /* Scenes */,
 				EF196F092C6BF6DE00863ED3 /* Resources */,
@@ -324,6 +338,8 @@
 				EFDB9C692C6A550F00A7CC3F /* TableViewCell.xib in Resources */,
 				EFDB9C452C6A4FE600A7CC3F /* LaunchScreen.storyboard in Resources */,
 				EFDB9C422C6A4FE600A7CC3F /* Assets.xcassets in Resources */,
+				EF196F392C6CB9F900863ED3 /* Second.png in Resources */,
+				EF196F3A2C6CB9F900863ED3 /* First.png in Resources */,
 				EFDB9C402C6A4FDA00A7CC3F /* List.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
